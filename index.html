@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Guss The Word Game" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1></h1>
+      <div class="guss-game">
+        <div class="game-area">
+          <div class="inputs"></div>
+          <div class="control">
+            <button class="check">Check Word</button>
+            <button class="hint"><span></span>Hints</button>
+          </div>
+          <div class="message"></div>
+        </div>
+        <div class="key-colors">
+          <h2>Key Colors</h2>
+          <div class="key-color">
+            <div class="key in-place"></div>
+            <div class="key-text">Letter Is Rigth And In Place</div>
+          </div>
+          <div class="key-color">
+            <div class="key out-place"></div>
+            <div class="key-text">Letter Is Correct But Not In Place</div>
+          </div>
+          <div class="key-color">
+            <div class="key no-place"></div>
+            <div class="key-text">Letter Is Wrong</div>
+          </div>
+        </div>
+      </div>
+      <footer></footer>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
